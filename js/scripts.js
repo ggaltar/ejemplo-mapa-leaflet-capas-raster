@@ -40,7 +40,6 @@ $.getJSON("https://tpb729-desarrollosigweb-2021.github.io/datos/sinac/areas_prot
 var capa_temperatura = L.imageOverlay("https://raw.githubusercontent.com/tpb729-desarrollosigweb-2021/datos/main/worldclim/bio1_cr.png", 
 	[[11.2174518619451575, -87.0981414346102696], 
 	[5.4997120253547189, -82.5543713734725770]], 
-	{opacity:0.8}
+	{opacity:0.5}
 ).addTo(mapa);
 control_capas.addOverlay(capa_temperatura, 'Temperatura');
-
